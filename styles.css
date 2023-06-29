@@ -1,5 +1,9 @@
 /*  your css code here. If applicable */
-b{
-	color:rgb(255, 0, 0);
-	font-size:20px;
+.main::before{
+	content:"Before Element";
+	color:red;
+}
+.main::after{
+	content:"After Element";
+	color:red;
 }
